@@ -23,7 +23,7 @@ $(document).ready(function() {
             var img_precedente = img_corrente.prev('img');
             if(img_precedente.length == 0) {
                 // se non ci sono più immagini->recupero la prima
-                (img_precedente) = $('.last'); 
+                (img_precedente) = $('.last');
 
             }
 
@@ -31,6 +31,6 @@ $(document).ready(function() {
             //aggiungo la classe active al img succesiva
             $(img_precedente).addClass('active');
 
-        })
+        });
 
 });

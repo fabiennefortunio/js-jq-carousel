@@ -5,22 +5,23 @@
 }
 
 body {
-
-    display: flex;
-    justify-content: center;
     background-color: black;
     font-family: 'Reenie Beanie', cursive;
 }
 
-.text {
-
+.main {
+    display: flex;
+    justify-content: center;
 }
 
 h1 {
     color: white;
-
+    text-align: center;
 }
 
+.text {
+    padding-top: 100px;
+}
 /* slider with icons */
 .slider {
     height: 500px;
