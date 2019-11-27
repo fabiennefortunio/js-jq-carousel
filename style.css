@@ -28,3 +28,18 @@ body {
     background-color: blue;
 
 }
+
+.container img {
+    object-fit: cover;
+    width: 500px;
+    height: 400px;
+
+}
+
+.active {
+    display: block;
+}
+
+.content img {
+    display: none;
+}
