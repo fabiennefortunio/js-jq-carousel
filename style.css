@@ -9,12 +9,16 @@ body {
     display: flex;
     justify-content: center;
     background-color: black;
+    font-family: 'Reenie Beanie', cursive;
+}
 
+.text {
 
 }
 
 h1 {
     color: white;
+
 }
 
 /* slider with icons */

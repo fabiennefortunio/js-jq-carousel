@@ -23,7 +23,7 @@ $(document).ready(function() {
             var img_precedente = img_corrente.prev('img');
             if(img_precedente.length == 0) {
                 // se non ci sono più immagini->recupero la prima
-                $(img_precedente) = $('.last'); 
+                (img_precedente) = $('.last'); 
 
             }
 
