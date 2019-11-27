@@ -10,8 +10,12 @@ body {
     justify-content: center;
     background-color: black;
 
+
 }
 
+h1 {
+    color: white;
+}
 
 /* slider with icons */
 .slider {
@@ -21,6 +25,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: lightblue;
 
 }
 /* chevron icons */
@@ -33,17 +38,18 @@ body {
 }
 /*frecce*/
 .left i {
-    font-size: 40px;
+    font-size: 50px;
 
 }
 
 .left i:hover {
     color: lightblue;
+
 }
 
 
 .right i {
-    font-size: 40px;
+    font-size: 50px;
 
 }
 
