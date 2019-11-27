@@ -19,7 +19,6 @@ body {
     align-items: center;
 
 
-
 }
 
 .container {
@@ -31,15 +30,15 @@ body {
 
 .container img {
     object-fit: cover;
-    width: 500px;
+    width: 60vw;
     height: 400px;
 
 }
 
-.active {
+.container .active {
     display: block;
 }
 
-.content img {
+.container img {
     display: none;
 }
