@@ -3,3 +3,28 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.slider {
+    height: 500px;
+    width: 70vw;
+    margin-top: 200px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+.container {
+    height: 400px;
+    width: 60vw;
+    background-color: blue;
+
+}
