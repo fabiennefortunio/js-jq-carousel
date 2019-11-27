@@ -17,7 +17,6 @@ body {
     height: 500px;
     width: 70vw;
     margin-top: 200px;
-    background-color: red;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -34,15 +33,25 @@ body {
 /*frecce*/
 .left i {
     font-size: 40px;
+
 }
+
+.left i:hover {
+    color: lightblue;
+}
+
 
 .right i {
     font-size: 40px;
 
 }
 
+.right i:hover {
+    color: lightblue;
+}
+
 .container::after {
-    
+
 
 }
 /* container with images */
