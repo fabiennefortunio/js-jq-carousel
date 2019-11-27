@@ -76,3 +76,8 @@ body {
 .container img {
     display: none;
 }
+
+img {
+  scroll-behavior: smooth;
+
+}
