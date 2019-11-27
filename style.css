@@ -8,6 +8,7 @@ body {
 
     display: flex;
     justify-content: center;
+
 }
 
 
@@ -27,9 +28,23 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+
+
+}
+/*frecce*/
+.left i {
+    font-size: 40px;
 }
 
+.right i {
+    font-size: 40px;
 
+}
+
+.container::after {
+    
+
+}
 /* container with images */
 .container {
     height: 400px;
