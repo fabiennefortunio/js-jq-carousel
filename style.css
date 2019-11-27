@@ -5,10 +5,13 @@
 }
 
 body {
+    background-color: black;
     display: flex;
     justify-content: center;
 }
 
+
+/* slider with icons */
 .slider {
     height: 500px;
     width: 70vw;
@@ -18,9 +21,16 @@ body {
     justify-content: center;
     align-items: center;
 
-
+}
+/* chevron icons */
+.iconos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+
+/* container with images */
 .container {
     height: 400px;
     width: 60vw;
@@ -34,11 +44,11 @@ body {
     height: 400px;
 
 }
-
+/* show images */
 .container .active {
     display: block;
 }
-
+/* doesnt show images */
 .container img {
     display: none;
 }
