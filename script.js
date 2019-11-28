@@ -1,5 +1,7 @@
 $(document).ready(function() {
     //call to action clicking the right icon
+alert('hola');
+
 
     $( '.right' ).click(function() {
 
@@ -34,9 +36,11 @@ $(document).ready(function() {
         });
 
 });
-// GIRO DELLE IMMAGINE
-var autoplay = true;
-for ( autoplay = 1; autoplay > 0 i++ ) {
+// GIRO DELLE IMMAGINE DEL CARROUSEL
+
+/*var autoplay = true;
+if();
+
     do {
         setInterval(function(autoplay, 3000);
     } while {
@@ -51,3 +55,22 @@ for ( autoplay = 1; autoplay > 0 i++ ) {
 }
 
 };
+*/
+
+//creo una variabile per la funzione
+ var autoplay = 0;
+ //creo una variabile per i dati dei click
+ var start = ('.right' '.left');
+ console.log(start);
+
+ //funzione con click
+ function('start') {
+     //se l'utente fa click le immagini cominciano a girare
+     if  $( 'start' ).click(function() {
+         setInterval(function(autoplay, 3000);
+
+
+    // se l'utente clicca di nuovo la operazione si ferma
+        $( 'start' ).click(function()
+        clearInterval(autoplay);
+});

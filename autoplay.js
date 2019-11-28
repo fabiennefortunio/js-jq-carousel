@@ -1,5 +1,4 @@
 $(document).ready(function() {
-alert ('hola')
 // CARROUSEL DELLO SLIDER
 /*// creo una variabile per la freccia destra e sinistra.
 var start = ('left', 'right')
@@ -42,4 +41,9 @@ for ( autoplay = 1; autoplay > 0 i++ ) {
 }
 
 }
+*/
+
+/*domande per Luca:
+come si aggiungono più di un .js file?
+
 */
