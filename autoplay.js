@@ -1,6 +1,7 @@
-// CARROUSEL DELLO SLIDER
+$(document).ready(function() {
 
-// creo una variabile per la freccia destra e sinistra.
+// CARROUSEL DELLO SLIDER
+/*// creo una variabile per la freccia destra e sinistra.
 var start = ('left', 'right')
 //creo una funzione per l'Autoplay (user fa click)
 function autoplay(start) {
@@ -21,5 +22,26 @@ function autoplay(start) {
         //l'utente clicca sulla immagina, ferma il ciclo ---> ClearInterval
     }
     }
+
+}
+*/
+// utente fa click su le frecce
+var autoplay = true;
+for ( autoplay = 1; autoplay > 0 i++ ) {
+    do {
+        setInterval(function(autoplay, 3000);
+    } while {
+        $( '.right' '.left' ).click(function() {
+            if (autoplay = false) {
+                clearInterval(autoplay);
+            }
+
+        }
+
+    }
+}
+
+
+
 
 }
