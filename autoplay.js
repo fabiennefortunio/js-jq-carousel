@@ -1,27 +1,24 @@
-// AUTOPLAY
+// CARROUSEL DELLO SLIDER
 
-var start = ('left', 'right') // user fa click sulla freccia destra o sinistra
+// creo una variabile per la freccia destra e sinistra.
+var start = ('left', 'right')
 //creo una funzione per l'Autoplay (user fa click)
 function autoplay(start) {
     autoplay = true;
     setInterval(function(autoplay), 2000);
-// creo una funzione per richiamarla quando l'utente fa click di nuovo o una basta?
-//autoPlay.function(stop)
 
-
-
+// user fa click
 
     $( '.left' .'right' ).click(function() {
-    //user fa click
-    //comincia il ciclo quando l'utente fa click
-    // cominciano a scorrere le immagine
+
+    // comincia il ciclo do/while -- cominciano a scorrere le immagine
     //richiama la funzioen e scorri le immagini ogni 2 secondi
     do {
-        function(autoPlay)
+        function(start)
     } while {
-        //user non fa click di nuovo
+        autoplay//user non fa click di nuovo
     } if {
-        //l'utente clicca sulla immagina ferma il ciclo ---> ClearInterval
+        //l'utente clicca sulla immagina, ferma il ciclo ---> ClearInterval
     }
     }
 
