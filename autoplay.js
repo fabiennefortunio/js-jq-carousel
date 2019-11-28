@@ -1,5 +1,5 @@
 $(document).ready(function() {
-
+alert ('hola')
 // CARROUSEL DELLO SLIDER
 /*// creo una variabile per la freccia destra e sinistra.
 var start = ('left', 'right')
@@ -26,7 +26,7 @@ function autoplay(start) {
 }
 */
 // utente fa click su le frecce
-var autoplay = true;
+/*var autoplay = true;
 for ( autoplay = 1; autoplay > 0 i++ ) {
     do {
         setInterval(function(autoplay, 3000);
@@ -41,7 +41,5 @@ for ( autoplay = 1; autoplay > 0 i++ ) {
     }
 }
 
-
-
-
 }
+*/

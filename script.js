@@ -34,3 +34,20 @@ $(document).ready(function() {
         });
 
 });
+// GIRO DELLE IMMAGINE
+var autoplay = true;
+for ( autoplay = 1; autoplay > 0 i++ ) {
+    do {
+        setInterval(function(autoplay, 3000);
+    } while {
+        $( '.right' '.left' ).click(function() {
+            if (autoplay = false) {
+                clearInterval(autoplay);
+            }
+
+        }
+
+    }
+}
+
+};
