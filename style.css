@@ -7,6 +7,9 @@
 body {
     background-color: black;
     font-family: 'Reenie Beanie', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .main {
