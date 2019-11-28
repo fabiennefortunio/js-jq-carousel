@@ -57,20 +57,19 @@ if();
 };
 */
 
-//creo una variabile per la funzione
- var autoplay = 0;
- //creo una variabile per i dati dei click
+ //dati quando l'utente fa click una volta
  var start = ('.right' '.left');
- console.log(start);
+ console.log('start');
+ //dati quando l'utente fa click di nuovo?
+ var stop = ;
 
  //funzione con click
- function('start') {
      //se l'utente fa click le immagini cominciano a girare
      if  $( 'start' ).click(function() {
          setInterval(function(autoplay, 3000);
-
+}
 
     // se l'utente clicca di nuovo la operazione si ferma
-        $( 'start' ).click(function()
+    if  $( 'start' ).click(function() {
         clearInterval(autoplay);
-});
+}
